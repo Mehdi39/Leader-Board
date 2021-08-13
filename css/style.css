@@ -1,0 +1,148 @@
+/* fonts  */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+/* common styles or utilities */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid #d1d1d1;
+}
+/* top player style */
+.section-title {
+    color: darkblue;
+    font-size: 24px;
+    margin-top: 2px;
+}
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* top blogs styles */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog {
+    display: flex;
+    padding-left: 16px;
+}
+
+.blog .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    color: #9f9f9f;
+    font-size: 16px;
+}
+
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: darkblue;
+}
+
+/* latest courses styles */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course {
+    padding-left: 20px;
+}
+
+.course .course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course .course-banner h3 {
+    font-weight: 500;
+    font-size: 20.0336px;
+    line-height: 23px;
+    color: #1E1E1E;
+}
+
+.course .course-banner p {
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+} 
+
+.fa-star.filled, .course-rating p {
+    color: #FFC014;
+}
+
+.fa-star {
+    color: gray;
+}
+
+.course-rating {
+    display: flex;
+    align-items: center;
+}
+
+.course-rating p {
+    padding: 0 10px;
+}
+
+.course-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    border-radius: 12px;
+    padding: 0px 15px;
+    font-size: 14.6913px;
+    font-weight: 600;
+    line-height: 20px;
+}
